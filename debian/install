@@ -1,0 +1,9 @@
+themes/*		var/lib/vdr/themes/
+anthra_1024.colors	usr/share/vdr-skins/anthra_1024/
+anthra_1024.skin	usr/share/vdr-skins/anthra_1024/
+Make.config		usr/share/vdr-skins/anthra_1024/
+Makefile		usr/share/vdr-skins/anthra_1024/
+menulogos		usr/share/vdr-skins/anthra_1024/
+images			usr/share/vdr-skins/anthra_1024/
+xml			usr/share/vdr-skins/anthra_1024/
+
