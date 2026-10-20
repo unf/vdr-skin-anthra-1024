@@ -1,3 +1,22 @@
+vdr-skin-anthra-1024 (0.3.4-1fnu0~trixie) trixie; urgency=medium
+
+  * Repackaged for Debian 13: debhelper 13, Standards-Version 4.7.2,
+    Rules-Requires-Root: no, Multi-Arch: foreign, Section video.
+  * The skin is no longer generated at package build time and made
+    writable for vdr by chown in /usr. vdr-skin-anthra-update from
+    vdr-skin-anthra-common builds it on installation and on request from
+    the sources in /usr/share/vdr-skin-anthra/anthra_1024
+    and the options in the conffile /etc/vdr/anthra/anthra_1024.conf
+    into /var/lib/vdr/plugins/text2skin/anthra_1024.
+    Local options survive upgrades.
+  * Build the translations from po/ and validate the skin with the default
+    options against the text2skin RELAX NG schema (xmlstarlet).
+  * Drop the make-config patch, paths and defaults are in the conffile now.
+  * Machine-readable debian/copyright (DEP-5). Maintainer Frank Neumann
+    <fnu@vdr-portal.de>.
+
+ -- Frank Neumann <fnu@vdr-portal.de>  Tue, 20 Oct 2026 13:41:35 +0200
+
 vdr-skin-anthra-1024 (0.3.4-1fnu1~focal) focal; urgency=high
 
   * automatic rebuild
@@ -18,14 +37,14 @@ vdr-skin-anthra-1024 (0.3.4-1fnu1~zesty) zesty; urgency=medium
 
 vdr-skin-anthra-1024 (0.3.4-1fnu1~xenial) xenial; urgency=high
 
-  * rebuild for xenial 
+  * rebuild for xenial
 
  -- Frank Neumann <fnu@yavdr.org>  Sun, 01 Jan 2017 20:54:56 +0100
 
 vdr-skin-anthra-1024 (0.3.4-1fnu1~trusty) trusty; urgency=high
 
   * New version
-    thanks to tomas from vdr-portal.de 
+    thanks to tomas from vdr-portal.de
   * changes to debian packaging
 
  -- Frank Neumann <fnu@yavdr.org>  Tue, 08 Apr 2014 17:25:51 +0200
@@ -34,7 +53,7 @@ vdr-skin-anthra-1024 (0.3.2-0fnu0~trusty) trusty; urgency=high
 
   * New version for VDR 1.7.28+
     thanks to tomas from vdr-portal.de
-  * Needs specific patched vdr-plugin-text2skin 
+  * Needs specific patched vdr-plugin-text2skin
 
  -- Frank Neumann <fnu@yavdr.org>  Wed, 17 Apr 2013 18:26:02 +0200
 
