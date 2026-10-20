@@ -1,0 +1,23 @@
+text2skin-anthra-1024 Revision History
+------------------------------------
+2014-03-24: Version 0.3.4
+- Some small fixes 
+- Adjustments for compatibility with VDR-2.x.x
+
+2013-10-27: Version 0.3.3
+-  Added support for channellogos with ChannelIds
+
+2013-04-14: Version 0.3.2
+- Added DiskUsage and VDR-Version to mainmenu
+
+2011-02-03: Version 0.3.1
+- Fixed TIMER-INFO_MAIN-MENU
+- Added TIMER-INFO_MAIN-MENU_BLINK
+
+2011-01-21: Version 0.2
+- Fixed MenuTitle-area
+
+2010-12-10: Version 0.1
+- Initial release
+
+
